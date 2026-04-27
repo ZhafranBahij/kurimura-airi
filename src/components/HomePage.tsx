@@ -53,7 +53,7 @@ const Navigation = () => {
       >
         <PawPrint className="h-8 w-8" />
         <span className="font-heading text-foreground text-2xl font-bold">
-          Purrfectly Zen
+          Kurimura Airi
         </span>
       </a>
 
@@ -188,12 +188,12 @@ const Hero = () => {
           transition={{ duration: 0.6 }}
         >
           <span className="font-hand text-primary mb-4 inline-block -rotate-2 text-2xl">
-            Welcome home, human!
+            Welcome home, Sensei!
           </span>
           <h1 className="font-heading text-foreground mb-6 text-5xl leading-[1.1] font-bold md:text-7xl">
-            Let's find your inner{' '}
+            I'm {' '}
             <span className="text-primary relative inline-block">
-              Zen
+              Kurimura Airi
               <svg
                 className="text-accent absolute -bottom-1 left-0 -z-10 h-3 w-full"
                 viewBox="0 0 100 10"
@@ -208,11 +208,10 @@ const Hero = () => {
               </svg>
             </span>{' '}
             <br />
-            with a cat!
+            desu~
           </h1>
           <p className="text-muted-foreground max-w-md text-lg leading-relaxed md:text-xl">
-            The purrfect place to disconnect from the noise and reconnect with
-            what matters: peace, presence, and gentle purrs.
+            One of the students studying in Trinity General School who wields a Sub-Machine Gun and member of After School Sweets Club
           </p>
 
           {/* Trust Badges */}
@@ -259,8 +258,8 @@ const Hero = () => {
           className="relative z-10"
         >
           <img
-            src="/images/cute_fluffy_cat_sleeping_on_a_cloud.png"
-            alt="Sleeping zen cat on a cloud"
+            src="/images/airi normal.png"
+            alt="Kurimura Airi"
             className="h-auto w-full transform rounded-[3rem] shadow-2xl transition-transform duration-700 hover:rotate-0 md:rotate-3"
           />
 
@@ -355,34 +354,29 @@ const Features = () => {
       <div className="mx-auto max-w-7xl">
         <div className="mb-16 space-y-4 text-center">
           <span className="font-hand text-primary text-xl">
-            Why cats are gurus
+            Sensei, I've 2 forms
           </span>
           <h2 className="font-heading text-foreground text-4xl font-bold md:text-5xl">
-            The Way of the Meow
+            Airi's Variant
           </h2>
         </div>
 
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           <FeatureCard
-            title="Master of Chill"
-            desc="Learn the ancient art of doing absolutely nothing and looking fabulous while doing it."
-            img="/images/meditating_cat_illustration.png"
+            title="Airi"
+            desc="Airi wears a white serafuku with a blue collar, a Trinity logo on the neck, blue stripes on her sleeves and skirt, ending with a large green ribbon in front.
+
+She wears a short white pleated skirt with black frills and a blue stripe, green-white striped panties underneath, long white thighhigh socks and a pair of black uwabaki on her feet. She carries a navy blue shoulder bag with a large choco-mint ice cream accessory, with a large white ribbon attached."
+            img="/images/airi normal square.png"
             delay={0.1}
             testId="card-feature-chill"
           />
           <FeatureCard
-            title="Playful Spirit"
-            desc="Rediscover your inner kitten. Chase dreams (and butterflies) with reckless abandon."
-            img="/images/playful_cat_illustration.png"
+            title="Airi (Band)"
+            desc="Airi is dressed in a white shirt tucked into a white pleated skirt, the shirt is adorned with the 'Sugar Rush' logo. Additionally, she wears a baggy light cyan jacket decorated with stickers, a white shoulder bag, white socks with small mint blue ribbons, and black shoes."
+            img="/images/airi band square.png"
             delay={0.2}
             testId="card-feature-playful"
-          />
-          <FeatureCard
-            title="Soul Nourishment"
-            desc="Feed your heart with unconditional love, head bumps, and the occasional slow blink."
-            img="/images/cat_with_food_illustration.png"
-            delay={0.3}
-            testId="card-feature-nourishment"
           />
         </div>
       </div>
@@ -393,25 +387,25 @@ const Features = () => {
 const Community = () => {
   const testimonials = [
     {
-      name: 'Sarah Chen',
-      role: 'Meditation Teacher',
+      name: 'Ibaragi Yoshimi',
+      role: 'After-School Sweets Club Member',
       quote:
-        'Purrfectly Zen completely transformed how I view mindfulness. My cat approves too.',
-      image: '/images/sarah_chen_meditation_teacher_portrait.png',
+        'A member of the After-School Sweets Club at Trinity General School. She has a complex about her height and physique, and always gives the impression of an angry small animal. Despite wanting to look mature, she is always doted on for how her thoughts are reflected unchanged in her facial expression.',
+      image: '/images/yoshimi normal square.png',
     },
     {
-      name: 'Marcus Johnson',
-      role: 'Wellness Coach',
+      name: 'Yutori Natsu',
+      role: 'After-School Sweets Club Member',
       quote:
-        'The cat philosophy here resonates deeply. Simplicity, presence, and the power of a good nap.',
-      image: '/images/marcus_johnson_wellness_coach_portrait.png',
+        'This is Natsu, the head troublemaker of the After-School Sweets Club and a self-proclaimed romantist! Her desire to "share the romance with everyone" has led her to say outlandish things and get everyone involved.',
+      image: '/images/natsu normal square.png',
     },
     {
-      name: 'Elena Rodriguez',
-      role: 'Creative Director',
+      name: 'Kyouyama Kazusa',
+      role: 'After-School Sweets Club Member',
       quote:
-        "I've never felt more zen. The community here truly understands the meow of life.",
-      image: '/images/elena_rodriguez_creative_director_portrait.png',
+        'A quiet and easy-going member of the After-School Sweets Club. Kazusa is always getting dragged into whatever strange antics the other club members are up to, but deep down in her kind heart she cherishes those moments.',
+      image: '/images/kazusa band square.png',
     },
   ];
 
@@ -483,12 +477,11 @@ const QuoteSection = () => {
           data-testid="text-quote"
           className="font-hand text-foreground/80 text-3xl leading-relaxed md:text-5xl"
         >
-          Time spent with cats is never wasted. It is a gentle reminder that we
-          are here to be loved, and to nap.
+	        Ehehe, you can rely more on me~	
         </h3>
 
         <div className="font-heading text-primary mt-8 font-bold">
-          — Sigmund Freud (probably)
+          — Kurimura Airi
         </div>
       </motion.div>
     </section>
@@ -667,45 +660,54 @@ export default function Home() {
             className="mb-12 space-y-4 text-center"
           >
             <h2 className="font-heading text-foreground text-4xl font-bold md:text-5xl">
-              Ready to find your zen?
+              Trivia Airi
             </h2>
             <p className="text-muted-foreground mx-auto max-w-2xl text-lg">
-              Choose your path and start your zen journey today
+              Discover interesting facts and secrets about Airi
             </p>
           </motion.div>
 
           <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
             {[
               {
-                id: 'cta-start-app',
-                title: 'Start Meditating',
-                description:
-                  'Meditate with your inner cat. Start with our breathing timer and find your calm.',
-                href: '/app',
-                testId: 'button-cta-app',
-                icon: <Heart className="text-primary h-8 w-8" />,
+                title: 'Sukeban Ambitions',
+                description: 'During the events of Sweet Secrets and Gunfights, Airi stated she wanted to be a Sukeban member, carrying a baseball bat and face mask.',
               },
               {
-                id: 'cta-guide',
-                title: 'Start Learning',
-                description:
-                  'Learn the fundamentals of meditation. A step-by-step guide for beginners and beyond.',
-                href: '/guide',
-                testId: 'button-cta-guide',
-                icon: <BookOpen className="text-primary h-8 w-8" />,
+                title: 'The Spiked Bat',
+                description: 'The same bat appears in Serenade Promenade Afterword episodes, featuring spikes, nails, and a Chocomint decoration.',
               },
               {
-                id: 'cta-explore',
-                title: 'Explore More',
-                description:
-                  'Discover zen tips, breathing techniques, and daily affirmations to deepen your practice.',
-                href: '/explore',
-                testId: 'button-cta-explore',
-                icon: <Compass className="text-primary h-8 w-8" />,
+                title: 'Movie Homages',
+                description: 'Her School Festival costume homages Jason Voorhees, with a mask mashing up Jason and Ghostface from Scream.',
               },
-            ].map((cta, idx) => (
+              {
+                title: 'Hidden Colors',
+                description: 'Interestingly, the color of the Chocomint, when inverted in negative colors, is actually blood.',
+              },
+              {
+                title: 'Emotional Depth',
+                description: 'She shows signs of depression, most noticeable in -ive aLIVE! and differences in her default vs Band Momotalk greetings.',
+              },
+              {
+                title: 'Model Inconsistency',
+                description: 'Airi\'s bust size in her 3D model shares similar inconsistency issues as seen with Kazusa and her Band variant.',
+              },
+              {
+                title: 'JP Rendition',
+                description: 'In the JP 3D rendition of her model, she is displayed as being approximately a B Cup.',
+              },
+              {
+                title: 'Global Animation',
+                description: 'In the Global animation "Sensei, the day’s finally here!", her Band variant is likely a C or D Cup based on her shirt.',
+              },
+              {
+                title: 'Chibi Update',
+                description: 'The Chocomint ice cream in her 3D chibi model was significantly increased in size after her dangle animation was added.',
+              },
+            ].map((trivia, idx) => (
               <motion.div
-                key={cta.id}
+                key={idx}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
@@ -714,22 +716,14 @@ export default function Home() {
                 className="bg-card flex h-full flex-col items-center gap-4 rounded-[2rem] p-8 text-center shadow-lg transition-shadow hover:shadow-xl"
               >
                 <div className="bg-primary/15 flex h-16 w-16 items-center justify-center rounded-full">
-                  {cta.icon}
+                  <span className="text-primary font-bold text-xl">{idx + 1}</span>
                 </div>
                 <h3 className="font-heading text-foreground text-2xl font-bold">
-                  {cta.title}
+                  {trivia.title}
                 </h3>
                 <p className="text-muted-foreground flex-1">
-                  {cta.description}
+                  {trivia.description}
                 </p>
-                <a href={cta.href}>
-                  <button
-                    data-testid={cta.testId}
-                    className="bg-primary text-primary-foreground hover:bg-primary/90 cursor-pointer rounded-full px-6 py-2 text-sm font-bold shadow-md transition-colors"
-                  >
-                    Get Started
-                  </button>
-                </a>
               </motion.div>
             ))}
           </div>
