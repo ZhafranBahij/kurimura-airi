@@ -504,12 +504,11 @@ export const Footer = () => {
             <div className="flex items-center gap-3">
               <PawPrint className="text-primary h-7 w-7" />
               <h3 className="font-heading text-foreground text-lg font-bold">
-                Purrfectly Zen
+                Kurimura Airi
               </h3>
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed">
-              Find your zen, one breath at a time. Meditate with your inner cat
-              and discover peace within.
+              One of the students studying in Trinity General School who wields a Sub-Machine Gun and member of After School Sweets Club
             </p>
           </motion.div>
 
@@ -692,14 +691,6 @@ export default function Home() {
               {
                 title: 'Model Inconsistency',
                 description: 'Airi\'s bust size in her 3D model shares similar inconsistency issues as seen with Kazusa and her Band variant.',
-              },
-              {
-                title: 'JP Rendition',
-                description: 'In the JP 3D rendition of her model, she is displayed as being approximately a B Cup.',
-              },
-              {
-                title: 'Global Animation',
-                description: 'In the Global animation "Sensei, the day’s finally here!", her Band variant is likely a C or D Cup based on her shirt.',
               },
               {
                 title: 'Chibi Update',
