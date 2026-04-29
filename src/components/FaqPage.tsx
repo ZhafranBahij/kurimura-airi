@@ -8,51 +8,45 @@ const FAQ = () => {
   const faqs = [
     {
       id: 'faq-1',
-      question: 'How long should I meditate each day?',
+      question: 'What are Airi\'s Sukeban ambitions?',
       answer:
-        'Start with just 5 minutes daily. Even a short practice is powerful when consistent. As you progress, you can extend to 10, 20, or 30 minutes.',
+        'During the events of Sweet Secrets and Gunfights, Airi stated she wanted to be a Sukeban member, carrying a baseball bat and face mask.',
     },
     {
       id: 'faq-2',
-      question: "I can't stop my mind from wandering. Am I doing it wrong?",
+      question: 'What is the story behind the spiked bat?',
       answer:
-        "Not at all! Mind-wandering is completely normal. Meditation is noticing when your mind wanders and gently bringing it back—that's the practice itself.",
+        'The same bat appears in Serenade Promenade Afterword episodes, featuring spikes, nails, and a Chocomint decoration.',
     },
     {
       id: 'faq-3',
-      question: 'Best time of day to meditate?',
+      question: 'Does Airi have any movie homages in her costumes?',
       answer:
-        "Early morning (after waking) is ideal for most people. However, the best time is whenever you'll actually do it. Consistency matters more than timing.",
+        'Her School Festival costume homages Jason Voorhees, with a mask mashing up Jason and Ghostface from Scream.',
     },
     {
       id: 'faq-4',
-      question: 'Do I need a special place to meditate?',
+      question: 'What is the secret about the Chocomint colors?',
       answer:
-        'No. While a quiet, comfortable space helps, meditation can happen anywhere—your bedroom, a park, even on the bus. Find what works for you.',
+        'Interestingly, the color of the Chocomint, when inverted in negative colors, is actually blood.',
     },
     {
       id: 'faq-5',
-      question: 'Is meditation religious? Can anyone do it?',
+      question: 'Has Airi shown any signs of emotional depth or depression?',
       answer:
-        'Meditation has roots in many traditions, but modern mindfulness meditation is secular and evidence-based. Anyone can benefit, regardless of beliefs.',
+        'She shows signs of depression, most noticeable in -ive aLIVE! and differences in her default vs Band Momotalk greetings.',
     },
     {
       id: 'faq-6',
-      question: 'How long before I see results?',
+      question: 'Are there any inconsistencies in Airi\'s 3D model?',
       answer:
-        'Some benefits (like reduced stress) appear within days. Deeper changes take weeks or months. Trust the process and keep practicing.',
+        'Airi\'s bust size in her 3D model shares similar inconsistency issues as seen with Kazusa and her Band variant.',
     },
     {
       id: 'faq-7',
-      question: 'What if I fall asleep during meditation?',
+      question: 'Was there any change to her 3D chibi model?',
       answer:
-        "It's fine! Your body might need rest. If it happens frequently, try meditating earlier in the day or sitting upright instead of lying down.",
-    },
-    {
-      id: 'faq-8',
-      question: 'Can I meditate while walking?',
-      answer:
-        'Yes! Walking meditation is a powerful practice. Focus on the sensation of each step, your breath, and your surroundings as you walk slowly.',
+        'The Chocomint ice cream in her 3D chibi model was significantly increased in size after her dangle animation was added.',
     },
   ];
 
@@ -75,7 +69,7 @@ const FAQ = () => {
               FAQ
             </h1>
             <p className="text-muted-foreground">
-              Answers to your meditation questions
+              Answers to your questions about Kurimura Airi
             </p>
           </div>
         </motion.div>
