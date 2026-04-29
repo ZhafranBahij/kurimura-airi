@@ -258,7 +258,7 @@ const Hero = () => {
           className="relative z-10"
         >
           <img
-            src="/images/airi normal.png"
+            src="/images/airi normal.jpg"
             alt="Kurimura Airi"
             className="h-auto w-full transform rounded-[3rem] shadow-2xl transition-transform duration-700 hover:rotate-0 md:rotate-3"
           />
@@ -367,14 +367,14 @@ const Features = () => {
             desc="Airi wears a white serafuku with a blue collar, a Trinity logo on the neck, blue stripes on her sleeves and skirt, ending with a large green ribbon in front.
 
 She wears a short white pleated skirt with black frills and a blue stripe, green-white striped panties underneath, long white thighhigh socks and a pair of black uwabaki on her feet. She carries a navy blue shoulder bag with a large choco-mint ice cream accessory, with a large white ribbon attached."
-            img="/images/airi normal square.png"
+            img="/images/airi normal square.jpg"
             delay={0.1}
             testId="card-feature-chill"
           />
           <FeatureCard
             title="Airi (Band)"
             desc="Airi is dressed in a white shirt tucked into a white pleated skirt, the shirt is adorned with the 'Sugar Rush' logo. Additionally, she wears a baggy light cyan jacket decorated with stickers, a white shoulder bag, white socks with small mint blue ribbons, and black shoes."
-            img="/images/airi band square.png"
+            img="/images/airi band square.jpg"
             delay={0.2}
             testId="card-feature-playful"
           />
@@ -391,21 +391,21 @@ const Community = () => {
       role: 'After-School Sweets Club Member',
       quote:
         'A member of the After-School Sweets Club at Trinity General School. She has a complex about her height and physique, and always gives the impression of an angry small animal. Despite wanting to look mature, she is always doted on for how her thoughts are reflected unchanged in her facial expression.',
-      image: '/images/yoshimi normal square.png',
+      image: '/images/yoshimi normal square.jpg',
     },
     {
       name: 'Yutori Natsu',
       role: 'After-School Sweets Club Member',
       quote:
         'This is Natsu, the head troublemaker of the After-School Sweets Club and a self-proclaimed romantist! Her desire to "share the romance with everyone" has led her to say outlandish things and get everyone involved.',
-      image: '/images/natsu normal square.png',
+      image: '/images/natsu normal square.jpg',
     },
     {
       name: 'Kyouyama Kazusa',
       role: 'After-School Sweets Club Member',
       quote:
         'A quiet and easy-going member of the After-School Sweets Club. Kazusa is always getting dragged into whatever strange antics the other club members are up to, but deep down in her kind heart she cherishes those moments.',
-      image: '/images/kazusa band square.png',
+      image: '/images/kazusa band square.jpg',
     },
   ];
 
@@ -621,17 +621,13 @@ export const Footer = () => {
         {/* Divider */}
         <div className="border-border/40 my-8 border-t" />
 
-        {/* Bottom: Copyright */}
+        {/* Bottom: Footer Info */}
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           className="text-muted-foreground/60 flex flex-col items-center justify-between gap-4 text-center text-xs md:flex-row"
         >
-          <p>
-            &copy; {new Date().getFullYear()} Fauzira Alpiandi. All rights
-            reserved.
-          </p>
           <p className="flex items-center justify-center gap-1">
             Built with <Heart className="h-3 w-3 text-red-400" /> for cat lovers
           </p>
